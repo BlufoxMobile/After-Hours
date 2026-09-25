@@ -1,0 +1,15 @@
+{
+  "name": "after-hours-3d",
+  "version": "3.0.0",
+  "private": true,
+  "description": "AFTER HOURS — a Blufox Mobile / C³ 3D arcade game. One self-contained HTML file.",
+  "type": "module",
+  "scripts": {
+    "build": "node tools/bundle.mjs src/main.js dist/index.html --shell shell.html --minify"
+  },
+  "dependencies": {
+    "esbuild": "^0.28.2",
+    "playwright-core": "^1.63.0",
+    "three": "^0.186.1"
+  }
+}
